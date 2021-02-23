@@ -27,7 +27,7 @@ namespace Hjælp_Jakob
             }
         }
 
-        public void sendMessages(MessageCarrier type, string[] to, Message m, bool isHTML)
+        public void sendMessageToAll(MessageCarrier type, string[] to, Message m, bool isHTML)
         {
             if (type.Equals(MessageCarrier.Smtp))
             {

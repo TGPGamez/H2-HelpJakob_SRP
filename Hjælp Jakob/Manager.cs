@@ -43,10 +43,7 @@ namespace Hjælp_Jakob
                 //her implementeres alt koden til at sende via VMessage
             }
         }
-    }
-
-    public class HTMLConverter
-    {
+        
         public static string ConvertBodyToHTML(string plainText)
         {
             return "" + plainText + "";

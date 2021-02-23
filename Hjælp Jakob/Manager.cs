@@ -44,7 +44,7 @@ namespace Hjælp_Jakob
             }
         }
         
-        public static string ConvertBodyToHTML(string plainText)
+        public string ConvertBodyToHTML(string plainText)
         {
             return "" + plainText + "";
         }
